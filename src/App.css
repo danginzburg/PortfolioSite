@@ -5,27 +5,25 @@ p, a.navbar-link, h1 {
 .navbar {
     display: flex;
     flex-direction: row;
-    margin-top: 16px;
     background-color: #0D182A;
-    min-height: 50px;
-    padding: 0;
-    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 15vw;
+    position: relative;
 }
 
 .navbar-title {
-    left: 20%;
-    position: fixed;
     font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 6px;
+    margin: 0;
 }
 
 .navbar-list {
     list-style: none;
     display: flex;
-    right: 20%;
-    position: fixed;
-    margin-top: 12px;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-item {
@@ -44,12 +42,15 @@ body {
 }
 
 .hero {
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    left: 30%;
-    top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 3rem;
 }
+
 
 .hero-title {
     font-size: 2.5rem;
@@ -72,7 +73,6 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    margin-left: 50px;
     overflow: hidden;
     object-fit: cover;
     object-position: center;
@@ -83,8 +83,9 @@ body {
 }
 
 .hero-container {
-    width: 100vw;
-    height: 550px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 .hero-location {
@@ -118,4 +119,63 @@ body {
     width: 32px;
     height: 32px;
     margin-right: 3px;
+}
+
+/* BURGER MENU STYLES */
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #E0E1DD;
+  border-radius: 2px;
+}
+
+@media (max-width: 900px) {
+  .burger {
+    display: flex;
+  }
+
+  .navbar-list {
+    flex-direction: column;
+    background-color: #0D182A;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 20%;
+    padding: 1rem 2rem;
+    z-index: 1000;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding: 0 2rem;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  .navbar-list.open {
+    max-height: 300px; 
+    opacity: 1;
+    padding: 1rem 2rem;
+    pointer-events: auto;
+  }
+
+  .navbar-item {
+    margin: 0.5rem 0;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    align-items: center;
+  }
 }
