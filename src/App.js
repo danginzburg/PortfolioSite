@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import './App.css';
 import profilepic from './assets/profile-pic.JPG';
-import locpin from './assets/location-pin.png';
 import linkedin from './assets/linkedin.png';
 import github from './assets/github.png';
 import email from './assets/mail.png';
@@ -69,7 +68,9 @@ function App() {
 
 
       <section id="skills">
-        {/* Skills content goes here */}
+        <div className="skills-container">
+
+        </div>
       </section>
       <section id="projects">
         {/* Projects content goes here */}
