@@ -86,3 +86,36 @@ body {
     width: 100vw;
     height: 550px;
 }
+
+.hero-location {
+    display: flex;
+    align-items: center;
+}
+
+.hero-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    filter: invert(36%) sepia(9%) saturate(878%) hue-rotate(172deg) brightness(89%) contrast(88%);
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    filter: invert(36%) sepia(9%) saturate(878%) hue-rotate(172deg) brightness(89%) contrast(88%);
+    gap: 1rem;
+}
+
+.hero-buttons a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #E0E1DD;
+}
+
+.hero-buttons img {
+    width: 32px;
+    height: 32px;
+    margin-right: 3px;
+}
