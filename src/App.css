@@ -1,5 +1,6 @@
-p, a.navbar-link, h1 {
+p, a.navbar-link, h1, .navbar-title{
     color: #E0E1DD;
+    text-decoration: none;
 }
 
 .navbar {
@@ -43,14 +44,21 @@ body {
 
 .hero {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 4rem;
-  width: 100%;
   flex-wrap: wrap;
+  width: 100%;
   margin-top: 3rem;
 }
 
+.hero-content {
+  order: 0;
+}
+.hero-image-wrapper {
+  order: 1;
+}
 
 .hero-title {
     font-size: 2.5rem;
@@ -168,16 +176,47 @@ body {
   .hero {
     flex-direction: column;
     text-align: center;
+    gap: 0;
   }
 
   .hero-buttons {
     justify-content: center;
     align-items: center;
   }
+
+ .hero-container {
+    height: 600px;
+  }
+
+  .hero-content {
+    order: 1;
+  }
+
+  .hero-image-wrapper {
+    order: 0;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.about-container {
+    background-color: #415A77;
+    width: 100%;
+    min-height: 400px;
 }
 
 .skills-container {
-    background-color: #0D1B2A;
+    background-color: #1B263B;
     width: 100%;
-    height: 400px;
+    min-height: 400px;
+}
+
+.projects-container {
+    background-color: #415A77;
+    width: 100%;
+    min-height: 400px;
 }
