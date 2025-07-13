@@ -8,9 +8,11 @@ import Projects from './components/Projects';
 function App() {
   return (
     <div className='app-container'>
-      <Navbar />
-      <Hero />
-
+      <section id="hero">
+        <Navbar />
+        <Hero />
+      </section>
+      
       <section className='about-container' id="about">
         <About />
       </section>
