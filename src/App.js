@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div>
+    <div className='app-container'>
       <Navbar />
       <Hero />
 

@@ -3,14 +3,37 @@ p, a.navbar-link, h1, .navbar-title{
     text-decoration: none;
 }
 
-.navbar {
+.app-container {
     display: flex;
-    flex-direction: row;
-    background-color: #0D1B2A;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 15vw;
-    position: relative;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 60px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #0D1B2A;
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 15vw;
+}
+
+.navbar-visible {
+    transform: translateY(0);
+}
+
+.navbar-hidden {
+    transform: translateY(-100%);
 }
 
 .navbar-title {
@@ -23,12 +46,12 @@ p, a.navbar-link, h1, .navbar-title{
     list-style: none;
     display: flex;
     gap: 1.5rem;
-    margin: 0;
     padding: 0;
+    font-weight: 500;
 }
 
 .navbar-item {
-    margin-right: 1.5rem;
+    margin-right: 0;
 }
 
 .navbar-link {
@@ -63,7 +86,7 @@ body {
 .hero-title {
     font-size: 2.5rem;
     font-weight: bold;
-    margin: 60px 0 0 0;
+    margin: 0;
 }
 
 .hero-subtitle {
@@ -147,7 +170,6 @@ body {
 
   .navbar-list {
     flex-direction: column;
-    background-color: #0D182A;
     position: absolute;
     top: 60px;
     right: 0;
@@ -176,7 +198,7 @@ body {
   .hero {
     flex-direction: column;
     text-align: center;
-    gap: 0;
+    gap: 1rem;
   }
 
   .hero-buttons {
@@ -185,7 +207,7 @@ body {
   }
 
  .hero-container {
-    height: 600px;
+    height: 550px;
   }
 
   .hero-content {
@@ -201,22 +223,4 @@ body {
     align-items: center;
     flex-wrap: wrap;
   }
-}
-
-.about-container {
-    background-color: #415A77;
-    width: 100%;
-    min-height: 400px;
-}
-
-.skills-container {
-    background-color: #1B263B;
-    width: 100%;
-    min-height: 400px;
-}
-
-.projects-container {
-    background-color: #415A77;
-    width: 100%;
-    min-height: 400px;
 }
