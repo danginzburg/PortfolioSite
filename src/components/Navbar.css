@@ -47,6 +47,10 @@
     text-decoration: none;
 }
 
+.navbar-link:hover {
+  color: #778DA9;
+}
+
 a.navbar-link, .navbar-title {
     color: #E0E1DD;
     text-decoration: none;

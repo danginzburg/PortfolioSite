@@ -1,0 +1,34 @@
+.about-section {
+  padding: 3rem 15vw;
+  color: #E0E1DD;
+  background-color: rgba(13, 27, 42, 0.8);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-professional,
+.about-personal {
+  background-color: rgba(27, 38, 59, 0.7);
+  padding: 1.5rem;
+  border-radius: 8px;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-professional h3,
+.about-personal h3 {
+  color: #778DA9;
+  margin-bottom: 0.5rem;
+}

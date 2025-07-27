@@ -33,7 +33,6 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* IMAGE SECTION (right on desktop, top on mobile) */}
         <div className="hero-image-wrapper">
           <img src={profilepic} alt="Profile" className="hero-image" />
         </div>
