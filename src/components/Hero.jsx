@@ -3,6 +3,7 @@ import profilepic from '../assets/profile-pic.JPG';
 import linkedin from '../assets/linkedin.png';
 import github from '../assets/github.png';
 import email from '../assets/mail.png';
+import "./Hero.css";
 
 const Hero = () => {
   return (
