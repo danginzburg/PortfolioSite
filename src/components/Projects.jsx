@@ -1,34 +1,30 @@
 import React from 'react';
 import './Projects.css';
+import arctic from '../assets/arctichomepage.png';
+import mlposter from '../assets/CSCI4521_Project_36x24.pptx-1-1.png';
+import aipaper from '../assets/Final_Writing-1-01.png';
 
 const projectsData = [
   {
-    title: 'Machine Learning Retrieval System',
+    title: 'ArcticMC',
     description:
-      'Built an information retrieval system during my ML internship to efficiently search and rank documents. Focused on algorithm optimization and accuracy improvements.',
-    image: '/images/ml-retrieval.png',
-    skills: ['Python', 'Machine Learning', 'SQL']
+      'Designed and developed a website for ArcticMC, a Minecraft server, using Angular and SCSS. The site features a modern design, user-friendly navigation, and integrates with the server’s API for real-time updates.',
+    image: arctic,
+    skills: ['Figma', 'Angular', 'SCSS', 'Java', 'TypeScript']
   },
   {
-    title: 'Portfolio Website',
+    title: 'Student Depression Classification',
     description:
-      'Personal portfolio built with React and modern CSS to showcase my projects and skills. Features a responsive layout and clean design principles.',
-    image: '/images/portfolio.png',
-    skills: ['React', 'CSS', 'Figma']
+      'Developed a machine learning model to classify student depression levels based on survey data. The project involved data preprocessing, feature engineering, and model evaluation using PyTorch and Scikit-Learn.',
+    image: mlposter,
+    skills: ['Python', 'Machine Learning', 'Data Analysis', 'Pytorch']
   },
   {
-    title: 'Web Design Project',
+    title: 'Comparing AI Algorithms on Reversi',
     description:
-      'Created a sleek and user-friendly web design for a local business, emphasizing accessibility and mobile responsiveness.',
-    image: '/images/web-design.png',
-    skills: ['HTML', 'CSS', 'JavaScript']
-  },
-  {
-    title: 'AI-Powered Chatbot',
-    description:
-      'Developed a chatbot using NLP techniques to answer user queries in real time, integrated with a web interface for seamless use.',
-    image: '/images/chatbot.png',
-    skills: ['Python', 'Flask', 'NLP']
+      'Implemented and compared various AI algorithms for playing Reversi, focusing on performance and strategy.',
+    image: aipaper,
+    skills: ['Python', 'AI', 'Academic Research', 'LaTeX']
   }
 ];
 

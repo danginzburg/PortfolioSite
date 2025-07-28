@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${showNavbar ? 'navbar-visible' : 'navbar-hidden'}`}>
         <div className="navbar-inner">
-            <a href="#hero" className="navbar-title">Portfolio</a>
+            <a href="#hero" className="navbar-title">Daniel Ginzburg</a>
             <div className="burger" onClick={() => setMenuOpen(!menuOpen)}>
                 <span className="bar" />
                 <span className="bar" />
