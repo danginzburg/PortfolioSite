@@ -3,13 +3,13 @@ import profilepic from '../assets/profile-pic.JPG';
 import linkedin from '../assets/linkedin.png';
 import github from '../assets/github.png';
 import email from '../assets/mail.png';
+import resumeicon from '../assets/icons8-resume-30.png';
 import "./Hero.css";
 
 const Hero = () => {
   return (
     <div className="hero-container">
       <div className="hero">
-        {/* TEXT SECTION (left on desktop, below on mobile) */}
         <div className="hero-content">
           <h1 className="hero-title">
             <span className="highlight-hero">Daniel</span> Ginzburg
@@ -29,6 +29,10 @@ const Hero = () => {
             <a href="mailto:daniel.ginzburg28@gmail.com">
               <img src={email} alt="Email" />
               <span className='hero-button-text'>Email</span>
+            </a>
+            <a href="/danielg_resume.pdf" target="_blank" rel="noopener noreferrer">
+              <img src={resumeicon} alt="Resume" />
+              <span className='hero-button-text'>Resume</span>
             </a>
           </div>
         </div>
