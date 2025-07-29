@@ -20,7 +20,7 @@ const projectsData = [
       'Developed a machine learning model to classify student depression levels based on survey data. The project involved data preprocessing, feature engineering, and model evaluation using PyTorch and Scikit-Learn.',
     image: mlposter,
     link: '/ml_depression_classification.pdf',
-    skills: ['Python', 'Machine Learning', 'Data Analysis', 'Pytorch']
+    skills: ['Python', 'Machine Learning', 'Data Analysis', 'PyTorch']
   },
   {
     title: 'Comparing AI Algorithms on Reversi',

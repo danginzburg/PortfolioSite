@@ -30,6 +30,10 @@
   margin: 0;
 }
 
+.navbar-title:hover {
+  color: #778DA9;
+}
+
 .navbar-list {
   list-style: none;
   display: flex;
