@@ -45,7 +45,8 @@
 .project-description {
   font-size: 1rem;
   line-height: 1.6;
-  color: #E0E1DD;
+  font-weight: 500;
+  color: rgba(224, 225, 221, 0.85);
   margin-top: 0;
   min-height: 4.8rem;
 }
@@ -57,6 +58,7 @@
   list-style: none;
   padding: 0;
   margin-top: auto;
+  font-weight: 500;
 }
 
 .project-skill {

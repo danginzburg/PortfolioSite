@@ -18,7 +18,7 @@
   padding: 1.5rem;
   border-radius: 8px;
   line-height: 1.6;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 900px) {
@@ -29,6 +29,10 @@
 
 .about-professional h3,
 .about-personal h3 {
-  color: #778DA9;
+  color: #E0E1DD;
   margin-bottom: 0.5rem;
+}
+
+p {
+  color: rgba(224, 225, 221, 0.85);
 }

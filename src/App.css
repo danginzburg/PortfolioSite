@@ -14,9 +14,29 @@ body {
     background-color: #1B263B;
     margin: 0;
     padding: 0;
+    font-family: 'ClashGrotesk-Variable', sans-serif;
+    letter-spacing: 1px;
 }
 
 ::selection {
   background: #778DA9;
   color: #E0E1DD;
+}
+
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 700.0;
+*
+* available axes:
+'wght' (range from 200.0 to 700.0
+*/
+@font-face {
+    font-family: 'ClashGrotesk-Variable';
+    src: url('./assets/fonts/ClashGrotesk-Variable.woff2') format('woff2'),
+         url('./assets/fonts/ClashGrotesk-Variable.woff') format('woff'),
+         url('./assets/fonts/ClashGrotesk-Variable.ttf') format('truetype');
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
 }
