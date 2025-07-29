@@ -1,9 +1,6 @@
 import React from "react";
 import profilepic from '../assets/profile-pic.JPG';
-import linkedin from '../assets/linkedin.png';
-import github from '../assets/github.png';
-import email from '../assets/mail.png';
-import resumeicon from '../assets/icons8-resume-30.png';
+import { FaLinkedin, FaGithub, FaEnvelope, FaFileAlt } from "react-icons/fa";
 import "./Hero.css";
 
 const Hero = () => {
@@ -19,19 +16,19 @@ const Hero = () => {
           </p>
           <div className="hero-buttons">
             <a href="https://www.linkedin.com/in/daniel-ginzburg/" target="_blank" rel="noopener noreferrer">
-              <img src={linkedin} alt="LinkedIn Profile" />
+              <FaLinkedin className="hero-icon"/>
               <span className='hero-button-text'>LinkedIn</span>
             </a>
             <a href="https://github.com/danginzburg" target="_blank" rel="noopener noreferrer">
-              <img src={github} alt="GitHub Profile" />
+              <FaGithub className="hero-icon"/>
               <span className='hero-button-text'>GitHub</span>
             </a>
             <a href="mailto:daniel.ginzburg28@gmail.com">
-              <img src={email} alt="Email" />
+              <FaEnvelope className="hero-icon"/>
               <span className='hero-button-text'>Email</span>
             </a>
             <a href="/danielg_resume.pdf" target="_blank" rel="noopener noreferrer">
-              <img src={resumeicon} alt="Resume" style={{ height: "26px" }} />
+              <FaFileAlt className="hero-icon hero-icon-resume" />
               <span className='hero-button-text'>Resume</span>
             </a>
           </div>

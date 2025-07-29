@@ -44,6 +44,7 @@
 
 .highlight-hero {
   color: #778DA9;
+  filter: brightness(1.2);
 }
 
 .hero-container {
@@ -59,10 +60,9 @@
 }
 
 .hero-icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  filter: invert(36%) sepia(9%) saturate(878%) hue-rotate(172deg) brightness(89%) contrast(88%);
+  font-size: 26px;
+  margin-right: 4px;
+  color: #415A77;
 }
 
 .hero-buttons {
@@ -76,23 +76,15 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #E0E1DD;
-  filter: invert(36%) sepia(9%) saturate(878%) hue-rotate(172deg) brightness(89%) contrast(88%);
+  color: #778DA9;
   transition: filter 0.3s ease;
 }
 
 .hero-buttons a:hover {
-  filter: invert(36%) sepia(9%) saturate(878%) hue-rotate(172deg) brightness(150%) contrast(88%);
+  filter: brightness(150%);
 }
 
-.hero-buttons img {
-  width: 32px;
-  height: 32px;
-  margin-right: 3px;
-  transition: filter 0.2s ease;
-}
-
-.hero-buttons a:hover img {
+.hero-buttons a:hover .hero-icon {
   filter: brightness(1.2);
 }
 
@@ -125,4 +117,8 @@
   .hero-image-wrapper {
     order: 0;
   }
+}
+
+.hero-icon-resume {
+  font-size: 22px;
 }
