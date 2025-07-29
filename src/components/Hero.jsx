@@ -31,7 +31,7 @@ const Hero = () => {
               <span className='hero-button-text'>Email</span>
             </a>
             <a href="/danielg_resume.pdf" target="_blank" rel="noopener noreferrer">
-              <img src={resumeicon} alt="Resume" />
+              <img src={resumeicon} alt="Resume" style={{ height: "26px" }} />
               <span className='hero-button-text'>Resume</span>
             </a>
           </div>
