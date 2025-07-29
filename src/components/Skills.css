@@ -39,6 +39,7 @@
   justify-content: center;
   color: #778DA9;
   flex-shrink: 0;
+  filter: brightness(0.85);
 }
 
 .skills-grid {
