@@ -1,9 +1,9 @@
 import React from 'react';
 import './Projects.css';
 import arctic from '../assets/arctichomepage.png';
-import mlposter from '../assets/CSCI4521_Project_36x24.pptx-1-1.png';
-import aipaper from '../assets/Final_Writing-1-01.png';
-import srs from '../assets/SRS_Team8.docx-1-01.png';
+import mlposter from '../assets/ml_depression_classification.png';
+import aipaper from '../assets/ai_reversi_comparison.png';
+import srs from '../assets/sdd_and_srs.png';
 
 const projectsData = [
   {
@@ -19,7 +19,7 @@ const projectsData = [
     description:
       'Developed a machine learning model to classify student depression levels based on survey data. The project involved data preprocessing, feature engineering, and model evaluation using PyTorch and Scikit-Learn.',
     image: mlposter,
-    link: '/ml_depression_classification.pdf',
+    link: '/ml_depression_classification.pptx.pdf',
     skills: ['Python', 'Machine Learning', 'Data Analysis', 'PyTorch']
   },
   {
