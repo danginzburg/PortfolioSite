@@ -9,7 +9,7 @@ const projectsData = [
   {
     title: 'ArcticMC',
     description:
-      'Designed and developed a website for ArcticMC, a Minecraft server, using Angular and SCSS. The site features a modern design, user-friendly navigation, and integrates with the server’s API for real-time updates.',
+      'Currently developing a multi-purpose community website for ArcticMC with Figma, Angular, SCSS, and TypeScript, integrating server APIs for real-time player data. Previously created gameplay enhancements used by hundreds of thousands of players worldwide.',
     image: arctic,
     link: 'https://arcticmc.com',
     skills: ['Figma', 'Angular', 'SCSS', 'Java', 'TypeScript']
@@ -17,7 +17,7 @@ const projectsData = [
   {
     title: 'Student Depression Classification',
     description:
-      'Developed a machine learning model to classify student depression levels based on survey data. The project involved data preprocessing, feature engineering, and model evaluation using PyTorch and Scikit-Learn.',
+      'Developed three ML models to classify student depression, achieving 82% accuracy on a 5,000-sample dataset. Preprocessed and balanced the data for statistical robustness, and performed gender-based segmentation to assess variations in feature importance and model performance.',
     image: mlposter,
     link: '/ml_depression_classification.pptx.pdf',
     skills: ['Python', 'Machine Learning', 'Data Analysis', 'PyTorch']
@@ -25,7 +25,7 @@ const projectsData = [
   {
     title: 'Comparing AI Algorithms on Reversi',
     description:
-      'Authored an academic paper analyzing and comparing AI algorithms for playing Reversi, implementing multiple approaches and evaluating their performance and strategies. Conducted simulations against random agents and competing algorithms, demonstrating that Alpha-Beta pruning achieved a 96% win rate with the lowest runtime.',
+      'Authored an academic paper evaluating AI algorithms for playing Reversi by implementing and comparing multiple approaches. Conducted simulations against random agents and competing algorithms, demonstrating that Alpha-Beta pruning achieved a 96% win rate while maintaining the lowest runtime.',
     image: aipaper,
     link: '/ai_reversi_comparison.pdf',
     skills: ['Python', 'AI', 'Academic Research', 'LaTeX']
@@ -33,7 +33,7 @@ const projectsData = [
   {
     title: 'Software Engineering: Election System',
     description:
-      'As a group, we created a Software Design Document (SDD) and a Software Requirements Specification (SRS) to guide the development of our Election System. We then implemented the system and wrote unit tests to ensure all system requirements were met.',
+      'Created comprehensive SRS and SDD documentation to define system architecture and guide development. Translated stakeholder requirements into prioritized product and sprint backlogs over two Agile sprints, and implemented unit tests to ensure compliance with acceptance criteria and project requirements.',
     image: srs,
     link: '/sdd_and_srs.pdf',
     skills: ['Waterfall', 'Agile', 'Unit Testing', 'Software Design', 'Requirements Analysis']
