@@ -12,15 +12,15 @@ const projectsData = [
       'Currently developing a multi-purpose community website for ArcticMC with Figma, Angular, SCSS, and TypeScript, integrating server APIs for real-time player data. Previously created gameplay enhancements used by hundreds of thousands of players worldwide.',
     image: arctic,
     link: 'https://arcticmc.com',
-    skills: ['Figma', 'Angular', 'SCSS', 'Java', 'TypeScript']
+    skills: ['Figma', 'Angular', 'HTML', 'SCSS', 'Java', 'TypeScript', 'Bootstrap']
   },
   {
-    title: 'Student Depression Classification',
+    title: 'Student Mental Health Classification',
     description:
-      'Developed three ML models to classify student depression, achieving 82% accuracy on a 5,000-sample dataset. Preprocessed and balanced the data for statistical robustness, and performed gender-based segmentation to assess variations in feature importance and model performance.',
+      'Developed three ML models to classify student mental health, achieving 82% accuracy on a 5,000-sample dataset. Preprocessed and balanced the data for statistical robustness, and performed data segmentation to assess variations in feature importance and model performance.',
     image: mlposter,
     link: '/ml_depression_classification.pptx.pdf',
-    skills: ['Python', 'Machine Learning', 'Data Analysis', 'PyTorch']
+    skills: ['Python', 'PyTorch', 'Sci-kit learn', 'Pandas', 'NumPy', 'Matplotlib']
   },
   {
     title: 'Comparing AI Algorithms on Reversi',
@@ -36,7 +36,7 @@ const projectsData = [
       'Created comprehensive SRS and SDD documentation to define system architecture and guide development. Translated stakeholder requirements into prioritized product and sprint backlogs over two Agile sprints, and implemented unit tests to ensure compliance with acceptance criteria and project requirements.',
     image: srs,
     link: '/sdd_and_srs.pdf',
-    skills: ['Waterfall', 'Agile', 'Unit Testing', 'Software Design', 'Requirements Analysis']
+    skills: ['Waterfall', 'Agile', 'Unit Testing', 'Software Design', 'Requirements Analysis', 'C++']
   }
 ];
 

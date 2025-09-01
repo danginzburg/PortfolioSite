@@ -13,7 +13,8 @@ import {
   Docker,
   Linux,
   PostgreSQL,
-  PyTorch
+  PyTorch,
+  Bootstrap5
 } from 'developer-icons';
 
 import './Skills.css';
@@ -35,14 +36,15 @@ const skillsData = [
       { name: 'React.js', icon: <ReactIcon /> },
       { name: 'Angular', icon: <Angular /> },
       { name: 'CSS', icon: <CSS3 /> },
-      { name: 'Figma', icon: <Figma /> }
+      { name: 'Figma', icon: <Figma /> },
+      { name: 'Bootstrap', icon: <Bootstrap5 /> }
     ]
   },
   {
     title: 'Tools & Technologies',
     skills: [
       { name: 'Docker', icon: <Docker /> },
-      { name: 'Unix', icon: <Linux /> },
+      { name: 'Linux', icon: <Linux /> },
       { name: 'PyTorch', icon: <PyTorch /> },
       { name: 'SQL', icon: <PostgreSQL /> }
     ]
