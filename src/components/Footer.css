@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #1b263b;
+    margin: 0 15vw;
+    padding: 0.5rem 0;
+}
+
+.footer p {
+    color: rgba(224, 225, 221, 1);
+}
