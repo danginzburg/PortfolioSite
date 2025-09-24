@@ -4,6 +4,7 @@ import arctic from '../assets/arctichomepage.png';
 import mlposter from '../assets/ml_depression_classification.png';
 import aipaper from '../assets/ai_reversi_comparison.png';
 import srs from '../assets/sdd_and_srs.png';
+import retrieval from '../assets/planck_ai_logo.jpg';
 
 const projectsData = [
   {
@@ -11,7 +12,7 @@ const projectsData = [
     description:
       'Currently developing a multi-purpose community website for ArcticMC with Figma, Angular, SCSS, and TypeScript, integrating server APIs for real-time player data. Previously created gameplay enhancements used by hundreds of thousands of players worldwide.',
     image: arctic,
-    link: 'https://arcticmc.com',
+    link: 'https://arcticmc.net',
     skills: ['Figma', 'Angular', 'HTML', 'SCSS', 'Java', 'TypeScript', 'Bootstrap']
   },
   {
@@ -37,6 +38,14 @@ const projectsData = [
     image: srs,
     link: '/sdd_and_srs.pdf',
     skills: ['Waterfall', 'Agile', 'Unit Testing', 'Software Design', 'Requirements Analysis', 'C++']
+  },
+  {
+    title: 'Hybrid Information Retrieval',
+    description:
+      'Designed and benchmarked single-vector dense retrievers and ColBERTv2 late-interaction models on financial/legal corpora. Built a hybrid BM25–ColBERT system with a query classifier for adaptive backend selection, and implemented evaluation pipelines (Recall@k, MRR, nDCG) alongside token-level relevance visualizations to analyze model behavior.',
+    image: retrieval,
+    link: 'https://planckai.io/',
+    skills: ['Information Retrieval', 'ColBERTv2', 'BM25', 'Hybrid Models', 'Query Classification', 'Evaluation Metrics', 'Data Visualization']
   }
 ];
 
