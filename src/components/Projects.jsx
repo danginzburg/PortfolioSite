@@ -5,15 +5,16 @@ import mlposter from '../assets/ml_depression_classification.png';
 import aipaper from '../assets/ai_reversi_comparison.png';
 import srs from '../assets/sdd_and_srs.png';
 import retrieval from '../assets/planck_ai_logo.jpg';
+import discord from '../assets/image.png';
 
 const projectsData = [
   {
-    title: 'ArcticMC',
+    title: 'ArcticMC (beta version)',
     description:
-      'Currently developing a multi-purpose community website for ArcticMC with Figma, Angular, SCSS, and TypeScript, integrating server APIs for real-time player data. Previously created gameplay enhancements used by hundreds of thousands of players worldwide.',
+      'Built Angular front-end using Spring Boot APIs for a Minecraft server network with 100k+ unique players. Designed scalable Java combat & mining systems, tested under peak loads of thousands of concurrent sessions. Launched beta program with a feedback loop to improve retention and UX.',
     image: arctic,
-    link: 'https://arcticmc.net',
-    skills: ['Figma', 'Angular', 'HTML', 'SCSS', 'Java', 'TypeScript', 'Bootstrap']
+    link: 'http://37.59.118.86/',
+    skills: ['Angular', 'Java', 'TypeScript', 'UX', 'Scalability', 'Figma']
   },
   {
     title: 'Student Mental Health Classification',
@@ -37,15 +38,23 @@ const projectsData = [
       'Created comprehensive SRS and SDD documentation to define system architecture and guide development. Translated stakeholder requirements into prioritized product and sprint backlogs over two Agile sprints, and implemented unit tests to ensure compliance with acceptance criteria and project requirements.',
     image: srs,
     link: '/sdd_and_srs.pdf',
-    skills: ['Waterfall', 'Agile', 'Unit Testing', 'Software Design', 'Requirements Analysis', 'C++']
+    skills: ['Waterfall', 'Agile', 'Unit Testing', 'Software Design', 'Requirements Analysis', 'C++', 'Test Driven Development']
   },
   {
     title: 'Hybrid Information Retrieval',
     description:
-      'Designed and benchmarked single-vector dense retrievers and ColBERTv2 late-interaction models on financial/legal corpora. Built a hybrid BM25–ColBERT system with a query classifier for adaptive backend selection, and implemented evaluation pipelines (Recall@k, MRR, nDCG) alongside token-level relevance visualizations to analyze model behavior.',
+      'Designed and benchmarked single-vector dense retrievers and ColBERTv2 late-interaction models on financial/legal corpora. Built a hybrid BM25–ColBERT system with a query classifier for adaptive backend selection, and implemented evaluation pipelines alongside token-level relevance visualizations to analyze model behavior.',
     image: retrieval,
     link: 'https://planckai.io/',
     skills: ['Information Retrieval', 'ColBERTv2', 'BM25', 'Hybrid Models', 'Query Classification', 'Evaluation Metrics', 'Data Visualization']
+  },
+  {
+    title: 'Valorant Role Randomizer Bot',
+    description:
+      'Built and deployed a Python algorithm in Discord to automate team role assignment for over 20 active players. The bot runs on AWS EC2 with automated restarts and logging to ensure 24/7 availability.',
+    image: discord,
+    link: 'https://github.com/danginzburg/ChumBot',
+    skills: ['Python', 'Discord API', 'AWS EC2', 'Automation', 'Logging']
   }
 ];
 
