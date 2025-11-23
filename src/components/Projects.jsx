@@ -14,8 +14,8 @@ const projectsData = [
     description:
       'Built Angular front-end using Spring Boot APIs for a Minecraft server network with 100k+ unique players. Designed scalable Java combat & mining systems, tested under peak loads of thousands of concurrent sessions. Launched beta program with a feedback loop to improve retention and UX.',
     image: arctic,
-    // link: 'http://37.59.118.86/',
-    link: 'https://arcticmc.net/',
+    link: 'http://37.59.118.86/',
+    // link: 'https://arcticmc.net/',
     skills: ['Angular', 'Java', 'TypeScript', 'Spring Boot', 'REST APIs', 'Postman', 'MySQL']
   },
   // {
