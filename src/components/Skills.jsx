@@ -80,7 +80,6 @@ const skillsData = [
   {
     title: 'Tools',
     skills: [
-      { name: 'Agile', icon: <span className="icon-fallback">Agile</span> },
       { name: 'Git', icon: <SiGit /> },
       { name: 'GitHub', icon: <SiGithub /> },
       { name: 'Docker', icon: <SiDocker /> },
